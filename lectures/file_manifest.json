@@ -1,0 +1,861 @@
+{
+  "course_url": "https://deep-learning-alchemy.github.io/",
+  "organized_on": "2026-11-12",
+  "paper_filename_pattern": "Lecture NN <lecture title> - <paper title> - <original arxiv basename>.pdf",
+  "assignments": [
+    {
+      "directory": "a1_basics",
+      "scope": "Basics: Hyperparameter tuning and scaling",
+      "lectures": [
+        1,
+        2
+      ]
+    },
+    {
+      "directory": "a2_hyperparameter_scaling",
+      "scope": "Optimization 1: Hyperparameter invariants",
+      "lectures": [
+        3,
+        4
+      ]
+    },
+    {
+      "directory": "a3_optimization2",
+      "scope": "Optimization 2: Loss landscapes",
+      "lectures": [
+        5,
+        6
+      ]
+    },
+    {
+      "directory": "a4_stability",
+      "scope": "Architecture 1: Stability across depth/time",
+      "lectures": [
+        7,
+        8
+      ]
+    },
+    {
+      "directory": "a5_capacity",
+      "scope": "Architecture 2: Extending model capacity",
+      "lectures": [
+        9
+      ]
+    },
+    {
+      "directory": "a6_generalization",
+      "scope": "Generalization: Data-efficient algorithms",
+      "lectures": [
+        10
+      ]
+    }
+  ],
+  "lectures": [
+    {
+      "number": 1,
+      "date": "2026-09-22",
+      "title": "Introduction",
+      "directory": "a1_basics/lecture_01_introduction",
+      "papers": []
+    },
+    {
+      "number": 2,
+      "date": "2026-09-24",
+      "title": "Basics",
+      "directory": "a1_basics/lecture_02_basics",
+      "papers": [
+        {
+          "title": "Predictable Scale: Part I, Step Law -- Optimal Hyperparameter Scaling Law in Large Language Model Pretraining",
+          "arxiv": "2503.04715v7",
+          "path": "a1_basics/lecture_02_basics/papers/Lecture 02 Basics - Predictable Scale - Part I, Step Law -- Optimal Hyperparameter Scaling Law in Large Language Model Pretraining - 2503.04715v7.pdf"
+        },
+        {
+          "title": "Scaling Laws for Neural Language Models",
+          "arxiv": "2001.08361v1",
+          "path": "a1_basics/lecture_02_basics/papers/Lecture 02 Basics - Scaling Laws for Neural Language Models - 2001.08361v1.pdf"
+        },
+        {
+          "title": "Nondeterminism and Instability in Neural Network Optimization",
+          "arxiv": "2103.04514v3",
+          "path": "a1_basics/lecture_02_basics/papers/Lecture 02 Basics - Nondeterminism and Instability in Neural Network Optimization - 2103.04514v3.pdf"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "date": "2026-10-01",
+      "title": "Optimizers 1: Invariances (and Hyperparameters)",
+      "directory": "a2_hyperparameter_scaling/lecture_03_optimizer_invariances",
+      "papers": [
+        {
+          "title": "Which Algorithmic Choices Matter at Which Batch Sizes? Insights From a Noisy Quadratic Model",
+          "arxiv": "1907.04164v2",
+          "path": "a2_hyperparameter_scaling/lecture_03_optimizer_invariances/papers/Lecture 03 Optimizers 1 - Invariances (and Hyperparameters) - Which Algorithmic Choices Matter at Which Batch Sizes - Insights From a Noisy Quadratic Model - 1907.04164v2.pdf"
+        },
+        {
+          "title": "Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization",
+          "arxiv": "2606.16899v2",
+          "path": "a2_hyperparameter_scaling/lecture_03_optimizer_invariances/papers/Lecture 03 Optimizers 1 - Invariances (and Hyperparameters) - Fantastic Pretraining Optimizers and Where to Find Them II - Hyperball Optimization - 2606.16899v2.pdf"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "date": "2026-10-06",
+      "title": "Optimizers 1: Parametrization and Preconditioning",
+      "directory": "a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning",
+      "papers": [
+        {
+          "title": "Scaling Exponents Across Parameterizations and Optimizers",
+          "arxiv": "2407.05872v2",
+          "path": "a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/papers/Lecture 04 Optimizers 1 - Parametrization and Preconditioning - Scaling Exponents Across Parameterizations and Optimizers - 2407.05872v2.pdf"
+        },
+        {
+          "title": "Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
+          "arxiv": "2203.03466v2",
+          "path": "a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/papers/Lecture 04 Optimizers 1 - Parametrization and Preconditioning - Tensor Programs V - Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer - 2203.03466v2.pdf"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "date": "2026-10-13",
+      "title": "Loss Landscapes Part 1 - Basins, River Valley, Critical Points",
+      "directory": "a3_optimization2/lecture_05_loss_landscape_geometry",
+      "papers": [
+        {
+          "title": "Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs",
+          "arxiv": "1802.10026v4",
+          "path": "a3_optimization2/lecture_05_loss_landscape_geometry/papers/Lecture 05 Loss Landscapes Part 1 - Basins, River Valley, Critical Points - Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs - 1802.10026v4.pdf"
+        },
+        {
+          "title": "Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape Perspective",
+          "arxiv": "2410.05192v3",
+          "path": "a3_optimization2/lecture_05_loss_landscape_geometry/papers/Lecture 05 Loss Landscapes Part 1 - Basins, River Valley, Critical Points - Understanding Warmup-Stable-Decay Learning Rates - A River Valley Loss Landscape Perspective - 2410.05192v3.pdf"
+        },
+        {
+          "title": "Identifying and attacking the saddle point problem in high-dimensional non-convex optimization",
+          "arxiv": "1406.2572v1",
+          "path": "a3_optimization2/lecture_05_loss_landscape_geometry/papers/Lecture 05 Loss Landscapes Part 1 - Basins, River Valley, Critical Points - Identifying and attacking the saddle point problem in high-dimensional non-convex optimization - 1406.2572v1.pdf"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "date": "2026-10-15",
+      "title": "Loss Landscapes Part 2 - Edge of Stability",
+      "directory": "a3_optimization2/lecture_06_sharpness_and_stability",
+      "papers": [
+        {
+          "title": "Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability",
+          "arxiv": "2103.00065v3",
+          "path": "a3_optimization2/lecture_06_sharpness_and_stability/papers/Lecture 06 Loss Landscapes Part 2 - Edge of Stability - Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability - 2103.00065v3.pdf"
+        },
+        {
+          "title": "Understanding Optimization in Deep Learning with Central Flows",
+          "arxiv": "2410.24206v2",
+          "path": "a3_optimization2/lecture_06_sharpness_and_stability/papers/Lecture 06 Loss Landscapes Part 2 - Edge of Stability - Understanding Optimization in Deep Learning with Central Flows - 2410.24206v2.pdf"
+        },
+        {
+          "title": "Sharpness-Aware Minimization for Efficiently Improving Generalization",
+          "arxiv": "2010.01412v3",
+          "path": "a3_optimization2/lecture_06_sharpness_and_stability/papers/Lecture 06 Loss Landscapes Part 2 - Edge of Stability - Sharpness-Aware Minimization for Efficiently Improving Generalization - 2010.01412v3.pdf"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "date": "2026-10-22",
+      "title": "Architecture 1: Signal Propagation in Depth",
+      "directory": "a4_stability/lecture_07_signal_propagation_in_depth",
+      "papers": [
+        {
+          "title": "Identity Mappings in Deep Residual Networks",
+          "arxiv": "1603.05027v3",
+          "path": "a4_stability/lecture_07_signal_propagation_in_depth/papers/Lecture 07 Architecture 1 - Signal Propagation in Depth - Identity Mappings in Deep Residual Networks - 1603.05027v3.pdf"
+        },
+        {
+          "title": "Deep Information Propagation",
+          "arxiv": "1611.01232v2",
+          "path": "a4_stability/lecture_07_signal_propagation_in_depth/papers/Lecture 07 Architecture 1 - Signal Propagation in Depth - Deep Information Propagation - 1611.01232v2.pdf"
+        },
+        {
+          "title": "mHC: Manifold-Constrained Hyper-Connections",
+          "arxiv": "2512.24880v2",
+          "path": "a4_stability/lecture_07_signal_propagation_in_depth/papers/Lecture 07 Architecture 1 - Signal Propagation in Depth - mHC - Manifold-Constrained Hyper-Connections - 2512.24880v2.pdf"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "date": "2026-10-27",
+      "title": "Architecture 1: Signal Propagation in Time",
+      "directory": "a4_stability/lecture_08_signal_propagation_in_time",
+      "papers": [
+        {
+          "title": "On the difficulty of training Recurrent Neural Networks",
+          "arxiv": "1211.5063v2",
+          "path": "a4_stability/lecture_08_signal_propagation_in_time/papers/Lecture 08 Architecture 1 - Signal Propagation in Time - On the difficulty of training Recurrent Neural Networks - 1211.5063v2.pdf"
+        },
+        {
+          "title": "When Attention Sink Emerges in Language Models: An Empirical View",
+          "arxiv": "2410.10781v2",
+          "path": "a4_stability/lecture_08_signal_propagation_in_time/papers/Lecture 08 Architecture 1 - Signal Propagation in Time - When Attention Sink Emerges in Language Models - An Empirical View - 2410.10781v2.pdf"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "date": "2026-11-05",
+      "title": "Architecture 2: Expressivity",
+      "directory": "a5_capacity/lecture_09_expressivity",
+      "papers": [
+        {
+          "title": "Benefits of depth in neural networks",
+          "arxiv": "1602.04485v2",
+          "path": "a5_capacity/lecture_09_expressivity/papers/Lecture 09 Architecture 2 - Expressivity - Benefits of depth in neural networks - 1602.04485v2.pdf"
+        },
+        {
+          "title": "Complexity of Linear Regions in Deep Networks",
+          "arxiv": "1901.09021v2",
+          "path": "a5_capacity/lecture_09_expressivity/papers/Lecture 09 Architecture 2 - Expressivity - Complexity of Linear Regions in Deep Networks - 1901.09021v2.pdf"
+        },
+        {
+          "title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
+          "arxiv": "1711.03953v4",
+          "path": "a5_capacity/lecture_09_expressivity/papers/Lecture 09 Architecture 2 - Expressivity - Breaking the Softmax Bottleneck - A High-Rank RNN Language Model - 1711.03953v4.pdf"
+        },
+        {
+          "title": "Transformers Learn Shortcuts to Automata",
+          "arxiv": "2210.10749v2",
+          "path": "a5_capacity/lecture_09_expressivity/papers/Lecture 09 Architecture 2 - Expressivity - Transformers Learn Shortcuts to Automata - 2210.10749v2.pdf"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "date": "2026-11-12",
+      "title": "Generalization Lecture 1 - Regularization and fine-tuning",
+      "directory": "a6_generalization/lecture_10_regularization_and_fine_tuning",
+      "papers": [
+        {
+          "title": "Surprises in High-Dimensional Ridgeless Least Squares Interpolation",
+          "arxiv": "1903.08560v5",
+          "path": "a6_generalization/lecture_10_regularization_and_fine_tuning/papers/Lecture 10 Generalization Lecture 1 - Regularization and fine-tuning - Surprises in High-Dimensional Ridgeless Least Squares Interpolation - 1903.08560v5.pdf"
+        },
+        {
+          "title": "Pre-training under infinite compute",
+          "arxiv": "2509.14786v1",
+          "path": "a6_generalization/lecture_10_regularization_and_fine_tuning/papers/Lecture 10 Generalization Lecture 1 - Regularization and fine-tuning - Pre-training under infinite compute - 2509.14786v1.pdf"
+        },
+        {
+          "title": "Scaling Laws for Transfer",
+          "arxiv": "2102.01293v1",
+          "path": "a6_generalization/lecture_10_regularization_and_fine_tuning/papers/Lecture 10 Generalization Lecture 1 - Regularization and fine-tuning - Scaling Laws for Transfer - 2102.01293v1.pdf"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "lectures/a1_basics.pdf",
+      "size": 681834,
+      "sha256": "c7224af293c916f18a44aeaf746cbc5a215de6cb1367720a438fdeb04d3f21d0",
+      "destination": "lectures/a1_basics/a1_basics.pdf",
+      "kind": "assignment",
+      "source_url": "https://deep-learning-alchemy.github.io/assets/assignments/a1_basics.pdf"
+    },
+    {
+      "path": "lectures/lecture_01.pdf",
+      "size": 5367195,
+      "sha256": "980932435757b832fbaa26d95943c517530fed89597e5937331dc028f7efe399",
+      "destination": "lectures/a1_basics/lecture_01_introduction/lecture_01.pdf",
+      "kind": "slides",
+      "lecture": 1,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_01.pdf"
+    },
+    {
+      "path": "lectures/2503.04715v7.pdf",
+      "size": 4886032,
+      "sha256": "11be7b192e95339441387de62ba90da4bbac304ca4de84d7a8e6ffea0be43667",
+      "destination": "lectures/a1_basics/lecture_02_basics/papers/Lecture 02 Basics - Predictable Scale - Part I, Step Law -- Optimal Hyperparameter Scaling Law in Large Language Model Pretraining - 2503.04715v7.pdf",
+      "kind": "paper",
+      "lecture": 2,
+      "title": "Predictable Scale: Part I, Step Law -- Optimal Hyperparameter Scaling Law in Large Language Model Pretraining",
+      "arxiv": "2503.04715v7",
+      "source_url": "https://arxiv.org/abs/2503.04715v7"
+    },
+    {
+      "path": "lectures/2001.08361v1.pdf",
+      "size": 2493004,
+      "sha256": "a41bd7877fd1a6bcbba096b2619618bd2f90e02488f2365644903eb2f7c6a494",
+      "destination": "lectures/a1_basics/lecture_02_basics/papers/Lecture 02 Basics - Scaling Laws for Neural Language Models - 2001.08361v1.pdf",
+      "kind": "paper",
+      "lecture": 2,
+      "title": "Scaling Laws for Neural Language Models",
+      "arxiv": "2001.08361v1",
+      "source_url": "https://arxiv.org/abs/2001.08361v1"
+    },
+    {
+      "path": "lectures/2103.04514v3.pdf",
+      "size": 2648420,
+      "sha256": "633b02e473b7b53a3a54d0858e30fd50e92051b6a78ab850632be874f989a369",
+      "destination": "lectures/a1_basics/lecture_02_basics/papers/Lecture 02 Basics - Nondeterminism and Instability in Neural Network Optimization - 2103.04514v3.pdf",
+      "kind": "paper",
+      "lecture": 2,
+      "title": "Nondeterminism and Instability in Neural Network Optimization",
+      "arxiv": "2103.04514v3",
+      "source_url": "https://arxiv.org/abs/2103.04514v3"
+    },
+    {
+      "path": "lectures/basics_prediction_quiz.pdf",
+      "size": 324711,
+      "sha256": "2375d9e13f648ae9f2eba6607e5f5d0b8e70825e4d11046fda0ffac49411751c",
+      "destination": "lectures/a1_basics/quizzes/basics_prediction_quiz.pdf",
+      "kind": "quiz"
+    },
+    {
+      "path": "lectures/basics_answer_slides.pdf",
+      "size": 4173391,
+      "sha256": "4ec20310d9b481dba97e3398af63220edf5c774383aa38356eb6d6ffc6bc1937",
+      "destination": "lectures/a1_basics/quizzes/basics_answer_slides.pdf",
+      "kind": "quiz"
+    },
+    {
+      "path": "lectures/a2_hyperparameter_scaling.pdf",
+      "size": 223659,
+      "sha256": "fe3afd8fbfa9ce243fa30b9d314345ed3d96a57f25287baab3883a5f928800de",
+      "destination": "lectures/a2_hyperparameter_scaling/a2_hyperparameter_scaling.pdf",
+      "kind": "assignment",
+      "source_url": "https://deep-learning-alchemy.github.io/assets/assignments/a2_hyperparameter_scaling.pdf"
+    },
+    {
+      "path": "lectures/lecture_03.pdf",
+      "size": 3759783,
+      "sha256": "88628301d4f2bcb4235b7a187a868b752565d284e94b8d2296ddd5024266904f",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_03_optimizer_invariances/lecture_03.pdf",
+      "kind": "slides",
+      "lecture": 3,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_03.pdf"
+    },
+    {
+      "path": "lectures/lecture_03.pptx",
+      "size": 21890387,
+      "sha256": "9d8c98ceada1e39873aa5da42aad185206d0ee8c17e3535991c81c4818344844",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_03_optimizer_invariances/lecture_03.pptx",
+      "kind": "slides",
+      "lecture": 3,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_03.pptx"
+    },
+    {
+      "path": "lectures/1907.04164v2.pdf",
+      "size": 7254111,
+      "sha256": "e1fa080f3778b56028df62af38bc1e51dee6d0d2eadb3153ac3671a12c14ab6b",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_03_optimizer_invariances/papers/Lecture 03 Optimizers 1 - Invariances (and Hyperparameters) - Which Algorithmic Choices Matter at Which Batch Sizes - Insights From a Noisy Quadratic Model - 1907.04164v2.pdf",
+      "kind": "paper",
+      "lecture": 3,
+      "title": "Which Algorithmic Choices Matter at Which Batch Sizes? Insights From a Noisy Quadratic Model",
+      "arxiv": "1907.04164v2",
+      "source_url": "https://arxiv.org/abs/1907.04164v2"
+    },
+    {
+      "path": "lectures/2606.16899v2.pdf",
+      "size": 2775464,
+      "sha256": "3373c5a4975d28c41b835a885edf762f5f4453c4804fe7c153437765cef5632d",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_03_optimizer_invariances/papers/Lecture 03 Optimizers 1 - Invariances (and Hyperparameters) - Fantastic Pretraining Optimizers and Where to Find Them II - Hyperball Optimization - 2606.16899v2.pdf",
+      "kind": "paper",
+      "lecture": 3,
+      "title": "Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization",
+      "arxiv": "2606.16899v2",
+      "source_url": "https://arxiv.org/abs/2606.16899v2"
+    },
+    {
+      "path": "lectures/lecture_04.pdf",
+      "size": 4469277,
+      "sha256": "5dada701075205f56262dac9c4f6f7538ddaff8af8eb3413bc26623de813f480",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/lecture_04.pdf",
+      "kind": "slides",
+      "lecture": 4,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_04.pdf"
+    },
+    {
+      "path": "lectures/2407.05872v2.pdf",
+      "size": 5652437,
+      "sha256": "a6f94edeb6eac4f5c4bc76b50f57c85364300aec61e97a70076b34d9b0a3c81e",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/papers/Lecture 04 Optimizers 1 - Parametrization and Preconditioning - Scaling Exponents Across Parameterizations and Optimizers - 2407.05872v2.pdf",
+      "kind": "paper",
+      "lecture": 4,
+      "title": "Scaling Exponents Across Parameterizations and Optimizers",
+      "arxiv": "2407.05872v2",
+      "source_url": "https://arxiv.org/abs/2407.05872v2"
+    },
+    {
+      "path": "lectures/2203.03466v2.pdf",
+      "size": 3195677,
+      "sha256": "62d1d70dac7d66038505fa7eaa371c45e9c7d2242e62a5a240e43e8fab39134e",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/papers/Lecture 04 Optimizers 1 - Parametrization and Preconditioning - Tensor Programs V - Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer - 2203.03466v2.pdf",
+      "kind": "paper",
+      "lecture": 4,
+      "title": "Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
+      "arxiv": "2203.03466v2",
+      "source_url": "https://arxiv.org/abs/2203.03466v2"
+    },
+    {
+      "path": "lectures/hyperparameter_scaling_prediction_quiz.pdf",
+      "size": 269890,
+      "sha256": "99937c4c82a5ab671ac09b5f089944fc7c8122bbc4c962d50ff69dc6110a8dee",
+      "destination": "lectures/a2_hyperparameter_scaling/quizzes/hyperparameter_scaling_prediction_quiz.pdf",
+      "kind": "quiz"
+    },
+    {
+      "path": "lectures/hyperparameter_scaling_answer_slides.pdf",
+      "size": 4575813,
+      "sha256": "63174e9abfb988ac20748ada42fa045efb243013423c4196fa768693806900b0",
+      "destination": "lectures/a2_hyperparameter_scaling/quizzes/hyperparameter_scaling_answer_slides.pdf",
+      "kind": "quiz"
+    },
+    {
+      "path": "lectures/a3_optimization2.pdf",
+      "size": 1667108,
+      "sha256": "5d85fa0dc33e69aee3593944f8c5183073f059ade6e1bb1791754afcb15fb8c5",
+      "destination": "lectures/a3_optimization2/a3_optimization2.pdf",
+      "kind": "assignment",
+      "source_url": "https://deep-learning-alchemy.github.io/assets/assignments/a3_optimization2.pdf"
+    },
+    {
+      "path": "lectures/lecture_05.pdf",
+      "size": 6049808,
+      "sha256": "bcc5c0593914571ec1533cf86e9476d31b9621133f5f4b53e5b7642db0d11c4d",
+      "destination": "lectures/a3_optimization2/lecture_05_loss_landscape_geometry/lecture_05.pdf",
+      "kind": "slides",
+      "lecture": 5,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_05.pdf"
+    },
+    {
+      "path": "lectures/1802.10026v4.pdf",
+      "size": 809905,
+      "sha256": "18d284392f19410ff6f65c449de1421e9b0d49f71fab1ff09c2657fc39b26f77",
+      "destination": "lectures/a3_optimization2/lecture_05_loss_landscape_geometry/papers/Lecture 05 Loss Landscapes Part 1 - Basins, River Valley, Critical Points - Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs - 1802.10026v4.pdf",
+      "kind": "paper",
+      "lecture": 5,
+      "title": "Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs",
+      "arxiv": "1802.10026v4",
+      "source_url": "https://arxiv.org/abs/1802.10026v4"
+    },
+    {
+      "path": "lectures/2410.05192v3.pdf",
+      "size": 3364320,
+      "sha256": "2d8037a71ef3b1c6590a88aabb9d5275376ab33054cc564db38131b47831ca0e",
+      "destination": "lectures/a3_optimization2/lecture_05_loss_landscape_geometry/papers/Lecture 05 Loss Landscapes Part 1 - Basins, River Valley, Critical Points - Understanding Warmup-Stable-Decay Learning Rates - A River Valley Loss Landscape Perspective - 2410.05192v3.pdf",
+      "kind": "paper",
+      "lecture": 5,
+      "title": "Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape Perspective",
+      "arxiv": "2410.05192v3",
+      "source_url": "https://arxiv.org/abs/2410.05192v3"
+    },
+    {
+      "path": "lectures/1406.2572v1.pdf",
+      "size": 1306632,
+      "sha256": "0245191294dc02410a9af9f35f8be4a11655f0d479c215bd581f51f8effdd316",
+      "destination": "lectures/a3_optimization2/lecture_05_loss_landscape_geometry/papers/Lecture 05 Loss Landscapes Part 1 - Basins, River Valley, Critical Points - Identifying and attacking the saddle point problem in high-dimensional non-convex optimization - 1406.2572v1.pdf",
+      "kind": "paper",
+      "lecture": 5,
+      "title": "Identifying and attacking the saddle point problem in high-dimensional non-convex optimization",
+      "arxiv": "1406.2572v1",
+      "source_url": "https://arxiv.org/abs/1406.2572v1"
+    },
+    {
+      "path": "lectures/lecture_06.pdf",
+      "size": 3827720,
+      "sha256": "27e88ab0fb4fab63f7037d9dbb17b92f5c393f76a494c95cd017533911acb395",
+      "destination": "lectures/a3_optimization2/lecture_06_sharpness_and_stability/lecture_06.pdf",
+      "kind": "slides",
+      "lecture": 6,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_06.pdf"
+    },
+    {
+      "path": "lectures/lecture_06.pptx",
+      "size": 15056634,
+      "sha256": "d26bd3713b9ede7877278a05e451e25c9d7bbfbbe5577768914049f7b505897c",
+      "destination": "lectures/a3_optimization2/lecture_06_sharpness_and_stability/lecture_06.pptx",
+      "kind": "slides",
+      "lecture": 6,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_06.pptx"
+    },
+    {
+      "path": "lectures/2103.00065v3.pdf",
+      "size": 8296092,
+      "sha256": "12f3e84bf3d9d7682ee292e16c8b16ef113b6f9695607e27907eaeb53f6aefc3",
+      "destination": "lectures/a3_optimization2/lecture_06_sharpness_and_stability/papers/Lecture 06 Loss Landscapes Part 2 - Edge of Stability - Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability - 2103.00065v3.pdf",
+      "kind": "paper",
+      "lecture": 6,
+      "title": "Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability",
+      "arxiv": "2103.00065v3",
+      "source_url": "https://arxiv.org/abs/2103.00065v3"
+    },
+    {
+      "path": "lectures/2410.24206v2.pdf",
+      "size": 42262612,
+      "sha256": "00da000308b4d5d429df82c4383e05c42d582b9463a2920a5f964300603ca74e",
+      "destination": "lectures/a3_optimization2/lecture_06_sharpness_and_stability/papers/Lecture 06 Loss Landscapes Part 2 - Edge of Stability - Understanding Optimization in Deep Learning with Central Flows - 2410.24206v2.pdf",
+      "kind": "paper",
+      "lecture": 6,
+      "title": "Understanding Optimization in Deep Learning with Central Flows",
+      "arxiv": "2410.24206v2",
+      "source_url": "https://arxiv.org/abs/2410.24206v2"
+    },
+    {
+      "path": "lectures/2010.01412v3.pdf",
+      "size": 877219,
+      "sha256": "73ace22a61c52152fc84a94239cb3ea5f9fa9e753aa8ef5995f277365e25b764",
+      "destination": "lectures/a3_optimization2/lecture_06_sharpness_and_stability/papers/Lecture 06 Loss Landscapes Part 2 - Edge of Stability - Sharpness-Aware Minimization for Efficiently Improving Generalization - 2010.01412v3.pdf",
+      "kind": "paper",
+      "lecture": 6,
+      "title": "Sharpness-Aware Minimization for Efficiently Improving Generalization",
+      "arxiv": "2010.01412v3",
+      "source_url": "https://arxiv.org/abs/2010.01412v3"
+    },
+    {
+      "path": "lectures/optimization2_prediction_quiz.pdf",
+      "size": 363487,
+      "sha256": "3f77061ee2356d3068cd8e48d2b1f88e9ee0e468b71e302e8bd708d896041ef1",
+      "destination": "lectures/a3_optimization2/quizzes/optimization2_prediction_quiz.pdf",
+      "kind": "quiz"
+    },
+    {
+      "path": "lectures/optimization2_answer_slides.pdf",
+      "size": 5098032,
+      "sha256": "3939530a4e7993c0076df1716ffa6406410457e59f12c57cbab058594a483473",
+      "destination": "lectures/a3_optimization2/quizzes/optimization2_answer_slides.pdf",
+      "kind": "quiz"
+    },
+    {
+      "path": "lectures/a4_architecture1.pdf",
+      "size": 151089,
+      "sha256": "92a9cdfcfd204b65ff40d12dc2c401c139dc505433f8890824ba6f995b2207d0",
+      "destination": "lectures/a4_stability/a4_architecture1.pdf",
+      "kind": "assignment",
+      "source_url": "https://deep-learning-alchemy.github.io/assets/assignments/a4_architecture1.pdf"
+    },
+    {
+      "path": "lectures/lecture_07.pdf",
+      "size": 4863448,
+      "sha256": "9d968daab0101d39eb95636af606ecdf6aa64bc88d1966cc61ffc4330eb28b62",
+      "destination": "lectures/a4_stability/lecture_07_signal_propagation_in_depth/lecture_07.pdf",
+      "kind": "slides",
+      "lecture": 7,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_07.pdf"
+    },
+    {
+      "path": "lectures/1603.05027v3.pdf",
+      "size": 1166414,
+      "sha256": "676113014c130991d3a1203b151e1f2d4596f08898440c72270934a88d006c32",
+      "destination": "lectures/a4_stability/lecture_07_signal_propagation_in_depth/papers/Lecture 07 Architecture 1 - Signal Propagation in Depth - Identity Mappings in Deep Residual Networks - 1603.05027v3.pdf",
+      "kind": "paper",
+      "lecture": 7,
+      "title": "Identity Mappings in Deep Residual Networks",
+      "arxiv": "1603.05027v3",
+      "source_url": "https://arxiv.org/abs/1603.05027v3"
+    },
+    {
+      "path": "lectures/1611.01232v2.pdf",
+      "size": 1225081,
+      "sha256": "c0f90dbc1c95429487da1511429127d0a54fec9745dd2cec84c6e1c5a34fd21f",
+      "destination": "lectures/a4_stability/lecture_07_signal_propagation_in_depth/papers/Lecture 07 Architecture 1 - Signal Propagation in Depth - Deep Information Propagation - 1611.01232v2.pdf",
+      "kind": "paper",
+      "lecture": 7,
+      "title": "Deep Information Propagation",
+      "arxiv": "1611.01232v2",
+      "source_url": "https://arxiv.org/abs/1611.01232v2"
+    },
+    {
+      "path": "lectures/2512.24880v2.pdf",
+      "size": 635294,
+      "sha256": "d849f4709ed29bfb2751f51e24dc836403f31271d1764dddfba0768d326a75d9",
+      "destination": "lectures/a4_stability/lecture_07_signal_propagation_in_depth/papers/Lecture 07 Architecture 1 - Signal Propagation in Depth - mHC - Manifold-Constrained Hyper-Connections - 2512.24880v2.pdf",
+      "kind": "paper",
+      "lecture": 7,
+      "title": "mHC: Manifold-Constrained Hyper-Connections",
+      "arxiv": "2512.24880v2",
+      "source_url": "https://arxiv.org/abs/2512.24880v2"
+    },
+    {
+      "path": "lectures/lecture_08.pdf",
+      "size": 3093050,
+      "sha256": "5e188cac1e569468d22c9d229a83c63ca8041307498215e0984b96fcf3d39d22",
+      "destination": "lectures/a4_stability/lecture_08_signal_propagation_in_time/lecture_08.pdf",
+      "kind": "slides",
+      "lecture": 8,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_08.pdf"
+    },
+    {
+      "path": "lectures/1211.5063v2.pdf",
+      "size": 625611,
+      "sha256": "cc8692b8d9d4ef8c8a377e0a894832a92186007792fce4f7e313925ea20f6cd5",
+      "destination": "lectures/a4_stability/lecture_08_signal_propagation_in_time/papers/Lecture 08 Architecture 1 - Signal Propagation in Time - On the difficulty of training Recurrent Neural Networks - 1211.5063v2.pdf",
+      "kind": "paper",
+      "lecture": 8,
+      "title": "On the difficulty of training Recurrent Neural Networks",
+      "arxiv": "1211.5063v2",
+      "source_url": "https://arxiv.org/abs/1211.5063v2"
+    },
+    {
+      "path": "lectures/2410.10781v2.pdf",
+      "size": 9076367,
+      "sha256": "0203931c6974090b950e4d4a1c918d7a1c2488c9a078f3e84a873b965d1710bb",
+      "destination": "lectures/a4_stability/lecture_08_signal_propagation_in_time/papers/Lecture 08 Architecture 1 - Signal Propagation in Time - When Attention Sink Emerges in Language Models - An Empirical View - 2410.10781v2.pdf",
+      "kind": "paper",
+      "lecture": 8,
+      "title": "When Attention Sink Emerges in Language Models: An Empirical View",
+      "arxiv": "2410.10781v2",
+      "source_url": "https://arxiv.org/abs/2410.10781v2"
+    },
+    {
+      "path": "lectures/stability_prediction_quiz.pdf",
+      "size": 572667,
+      "sha256": "da4511cda110ac5179cb0a69c60fa76b885f79780aa37ea021bdc97ac6fb440b",
+      "destination": "lectures/a4_stability/quizzes/stability_prediction_quiz.pdf",
+      "kind": "quiz"
+    },
+    {
+      "path": "lectures/stability_answer_slides.pdf",
+      "size": 4500385,
+      "sha256": "3688eb5c0c9dd4903ca1afe2e68f42fb55359268f022f3bdeee2573d714d7c0d",
+      "destination": "lectures/a4_stability/quizzes/stability_answer_slides.pdf",
+      "kind": "quiz"
+    },
+    {
+      "path": "lectures/a5_capacity.pdf",
+      "size": 277286,
+      "sha256": "026e16b54f8e7d0cf4b9568d6618e22f9b7f1d5e8c1ec68b5c59a0d223aff52d",
+      "destination": "lectures/a5_capacity/a5_capacity.pdf",
+      "kind": "assignment",
+      "source_url": "https://deep-learning-alchemy.github.io/assets/assignments/a5_capacity.pdf"
+    },
+    {
+      "path": "lectures/lecture_09.pdf",
+      "size": 2997305,
+      "sha256": "f100477fe59d377851667e8b6bc1efc2efb1da0ed2127e4e562b09a575b8d745",
+      "destination": "lectures/a5_capacity/lecture_09_expressivity/lecture_09.pdf",
+      "kind": "slides",
+      "lecture": 9,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_09.pdf"
+    },
+    {
+      "path": "lectures/1602.04485v2.pdf",
+      "size": 429150,
+      "sha256": "8634b0520bdf2f3d0188e8170a88c451ac8b0ef135bde21e530e4c9a060bc600",
+      "destination": "lectures/a5_capacity/lecture_09_expressivity/papers/Lecture 09 Architecture 2 - Expressivity - Benefits of depth in neural networks - 1602.04485v2.pdf",
+      "kind": "paper",
+      "lecture": 9,
+      "title": "Benefits of depth in neural networks",
+      "arxiv": "1602.04485v2",
+      "source_url": "https://arxiv.org/abs/1602.04485v2"
+    },
+    {
+      "path": "lectures/1901.09021v2.pdf",
+      "size": 2362723,
+      "sha256": "3affe4649f3d980ef3ed2034fcce5ec4a05d2f2e3cbeacb33d82c1691594dce5",
+      "destination": "lectures/a5_capacity/lecture_09_expressivity/papers/Lecture 09 Architecture 2 - Expressivity - Complexity of Linear Regions in Deep Networks - 1901.09021v2.pdf",
+      "kind": "paper",
+      "lecture": 9,
+      "title": "Complexity of Linear Regions in Deep Networks",
+      "arxiv": "1901.09021v2",
+      "source_url": "https://arxiv.org/abs/1901.09021v2"
+    },
+    {
+      "path": "lectures/1711.03953v4.pdf",
+      "size": 429415,
+      "sha256": "4e1d96686ba01bd03ad3d65e74119fbaf12f7570cdc2bd6486f360e590998801",
+      "destination": "lectures/a5_capacity/lecture_09_expressivity/papers/Lecture 09 Architecture 2 - Expressivity - Breaking the Softmax Bottleneck - A High-Rank RNN Language Model - 1711.03953v4.pdf",
+      "kind": "paper",
+      "lecture": 9,
+      "title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
+      "arxiv": "1711.03953v4",
+      "source_url": "https://arxiv.org/abs/1711.03953v4"
+    },
+    {
+      "path": "lectures/2210.10749v2.pdf",
+      "size": 10177679,
+      "sha256": "a5fec590d85462d05d02c2270046fc95341e8f479cb5fa961ca2fab393bea824",
+      "destination": "lectures/a5_capacity/lecture_09_expressivity/papers/Lecture 09 Architecture 2 - Expressivity - Transformers Learn Shortcuts to Automata - 2210.10749v2.pdf",
+      "kind": "paper",
+      "lecture": 9,
+      "title": "Transformers Learn Shortcuts to Automata",
+      "arxiv": "2210.10749v2",
+      "source_url": "https://arxiv.org/abs/2210.10749v2"
+    },
+    {
+      "path": "lectures/a6_generalization.pdf",
+      "size": 407311,
+      "sha256": "21076534bcde35b81205744dcb9d1ad97bedba9652209e590131d88db576d6df",
+      "destination": "lectures/a6_generalization/a6_generalization.pdf",
+      "kind": "assignment",
+      "source_url": "https://deep-learning-alchemy.github.io/assets/assignments/a6_generalization.pdf"
+    },
+    {
+      "path": "lectures/lecture_10.pdf",
+      "size": 10067494,
+      "sha256": "340d07e475bc5d1047593df1dfb38608f0e68cdfc94ebb5e0e7241412995aeed",
+      "destination": "lectures/a6_generalization/lecture_10_regularization_and_fine_tuning/lecture_10.pdf",
+      "kind": "slides",
+      "lecture": 10,
+      "source_url": "https://deep-learning-alchemy.github.io/assets/slides/lecture_10.pdf"
+    },
+    {
+      "path": "lectures/1903.08560v5.pdf",
+      "size": 1673553,
+      "sha256": "b671592188609aae4a4b99bfeb6505dcd8fadffb8916126a71570e2d0b658814",
+      "destination": "lectures/a6_generalization/lecture_10_regularization_and_fine_tuning/papers/Lecture 10 Generalization Lecture 1 - Regularization and fine-tuning - Surprises in High-Dimensional Ridgeless Least Squares Interpolation - 1903.08560v5.pdf",
+      "kind": "paper",
+      "lecture": 10,
+      "title": "Surprises in High-Dimensional Ridgeless Least Squares Interpolation",
+      "arxiv": "1903.08560v5",
+      "source_url": "https://arxiv.org/abs/1903.08560v5"
+    },
+    {
+      "path": "lectures/2509.14786v1.pdf",
+      "size": 5909736,
+      "sha256": "760e8ef2fb875219accf705cf0259928827d756fbef8fa96148ca245291e6875",
+      "destination": "lectures/a6_generalization/lecture_10_regularization_and_fine_tuning/papers/Lecture 10 Generalization Lecture 1 - Regularization and fine-tuning - Pre-training under infinite compute - 2509.14786v1.pdf",
+      "kind": "paper",
+      "lecture": 10,
+      "title": "Pre-training under infinite compute",
+      "arxiv": "2509.14786v1",
+      "source_url": "https://arxiv.org/abs/2509.14786v1"
+    },
+    {
+      "path": "lectures/2102.01293v1.pdf",
+      "size": 2007160,
+      "sha256": "f85736d0852adc063f7a5a22c2a4cc12f27cbf5f2625e132bd474ecdc300c081",
+      "destination": "lectures/a6_generalization/lecture_10_regularization_and_fine_tuning/papers/Lecture 10 Generalization Lecture 1 - Regularization and fine-tuning - Scaling Laws for Transfer - 2102.01293v1.pdf",
+      "kind": "paper",
+      "lecture": 10,
+      "title": "Scaling Laws for Transfer",
+      "arxiv": "2102.01293v1",
+      "source_url": "https://arxiv.org/abs/2102.01293v1"
+    },
+    {
+      "path": "lectures/llms_101_handout.pdf",
+      "size": 215995,
+      "sha256": "db3bef156dfdeb50dd395e199cd8bc8ec1b277f072a50062b5ecd02e5fbbe74d",
+      "destination": "lectures/a1_basics/supplementary/llms_101_handout.pdf",
+      "kind": "supplementary"
+    },
+    {
+      "path": "lectures/llms_101_slides.pdf",
+      "size": 1057632,
+      "sha256": "ffd4f034a4fef5679373bdce00f191eeaf638ec6b6d08515fcfee7a5394ed014",
+      "destination": "lectures/a1_basics/supplementary/llms_101_slides.pdf",
+      "kind": "supplementary"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog.html",
+      "size": 153341,
+      "sha256": "7bbbb3f5123ddaa46c3f9ccc42dd1df7e5ce880d50e45d3c38daf2e675fe5468",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog.html",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/divine.png",
+      "size": 22934,
+      "sha256": "4e97cb5f01637097b6f776295b5c1ce94cb4b59a81c63c2ed51e652e8be3623c",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/divine.png",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js",
+      "size": 101714,
+      "sha256": "f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/js",
+      "size": 513697,
+      "sha256": "7a030d97a20d7e5a4d2a71d31c5f78ea42e38e0a33d10d9d6cf760cb58226977",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/js",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/muon15b.jpeg",
+      "size": 119952,
+      "sha256": "f5554a164aef98ca34df4e22b1dc6b335104f0213d6ffe47b44680e52cf74410",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/muon15b.jpeg",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/muon_algo.png",
+      "size": 140022,
+      "sha256": "ee8009a3e0b1a81f95db298b3af4a1a443f15d3ae3852e16c570efe4260f8dee",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/muon_algo.png",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/nanogpt_speedrun81w.png",
+      "size": 179471,
+      "sha256": "7fbb61bc47aa8dec2cf5760171d9bdbd76f8814dda162e140653135a8ed6b7d3",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/nanogpt_speedrun81w.png",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/nanogpt_speedrun82w.png",
+      "size": 169624,
+      "sha256": "91c8b5af26b51c8bcb912ebd952ad4824d6bef0c51df05d264d51bc5444150e1",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/nanogpt_speedrun82w.png",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/poly_phi.png",
+      "size": 145184,
+      "sha256": "1b2e816cc47e0f519f2e915937e2a076c999f09506d54520bb97c4e61f7fdf35",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/poly_phi.png",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/poly_phirho.png",
+      "size": 211344,
+      "sha256": "273b415363fca842e8090e3c304efd527ae8bff3e43c1413af4be0d58e8e6b09",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/poly_phirho.png",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/shampoo.png",
+      "size": 114370,
+      "sha256": "21296678a4f4b9c0693eb8bba664d9c8de50b6d97241a8eede3448ff79adcad7",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/shampoo.png",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    },
+    {
+      "path": "lectures/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/tex-chtml.js",
+      "size": 1160989,
+      "sha256": "0a6ded5abbce13331658dd239f34382abd06492c74b71b61e8caa8112ec55fa5",
+      "destination": "lectures/a2_hyperparameter_scaling/lecture_04_parametrization_and_preconditioning/readings/Muon_ An optimizer for hidden layers in neural networks _ Keller Jordan blog_files/tex-chtml.js",
+      "kind": "reading",
+      "lecture": 4,
+      "source_url": "https://kellerjordan.github.io/posts/muon/"
+    }
+  ]
+}
